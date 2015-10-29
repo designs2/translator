@@ -1,5 +1,5 @@
 {
-  "name": "contao-community-alliance/translator",
+  "name": "designs2/translator",
   "description": "Multipurpose translation manager and interface",
   "keywords": [
     "contao",
@@ -25,16 +25,16 @@
     "email": "info@contao-community-alliance.de",
     "issues": "https://github.com/contao-community-alliance/translator/issues",
     "irc": "irc://irc.freenode.org/contao.cca",
-    "source": "https://github.com/contao-community-alliance/translator"
+    "source": "https://github.com/designs2/translator"
   },
   "require": {
     "php": ">=5.3",
     "contao/core": ">=3.2,<3.6-dev",
-    "contao-community-alliance/composer-plugin": "~2.0",
-    "contao-community-alliance/event-dispatcher": "~1.0"
+    "contao-community-alliance/composer-plugin": "*",
+    "designs2/event-dispatcher": "*"
   },
   "require-dev": {
-    "phpcq/all-tasks": "~1.0"
+    "phpcq/all-tasks": "*"
   },
   "autoload": {
     "psr-0": {
